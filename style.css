@@ -1,0 +1,43 @@
+body { 
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+main { 
+    background-color:rgb(37, 35, 35);
+    
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    place-items: center;
+}
+h2 { 
+    color: white;
+}
+span {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: monospace;
+  }
+
+#btn { 
+    place-items: center; 
+    background: lightblue;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px #999;
+}
+
+#btn :hover { 
+    background-color: darkblue;
+}
+
+#btn :active { 
+    background-color: darkblue;
+    box-shadow:0 5px darkblue;
+    transform: translateY(2px);
+}
